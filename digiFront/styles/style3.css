@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 52px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    padding: 10px;
+}
+
+.serch {
+    height: 47px;
+    width: 600px;
+    background-color: rgb(244, 236, 236);
+    border-radius: 10px;
+}
+
+input {
+    padding: 15px;
+    width: 537px;
+    border: 0px;
+    outline: 0px;
+    font-size: 15px;
+    background: transparent;
+}
+
+.te {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.Ex {
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    margin-right: 20px;
+    background-color: #8f51c1;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.back {
+    height: 40px;
+
+    margin-top: 30px;
+
+}
+
+
+.box1 {
+    height: 100px;
+    border: 0.5px solid rgb(255, 251, 251);
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    box-shadow: 5px 5px 8px rgb(59, 64, 223);
+}
+
+
+
+.box2 {
+    height: 230px;
+    border: 0.5px solid rgb(233, 233, 233);
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #faf2ff;
+    box-shadow: 0px 0px 20px rgb(119, 109, 109);
+    text-decoration: none;
+}
+.box2:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.box9 {
+    margin-top: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sa {
+    height: 30px;
+    width: 150px;
+    color: black;
+    background-color: #d8d3dd;
+    text-align: center;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.next {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#spin{
+    
+        height: 300Px;
+        width: 300px;
+        margin: auto;
+        margin-top: 40px;
+        margin-left: 600px;
+        border-radius: 50%;
+        position: fixed;
+        animation: spin ease-in-out 2s infinite;
+    }
+    @keyframes spin{
+       0%{
+           border-top: 8px  solid #A545F1;
+           transform: rotate(0deg);
+       }
+       25%{
+           border-top: 8px solid #A545F1;
+           transform: rotate(90deg);
+       }
+       50%{
+           border-top: 8px solid #A545F1;
+           transform: rotate(180deg);
+       }
+       75%{
+           border-top: 8px solid #A545F1;
+           transform: rotate(270deg);
+       }
+      100%{
+           border-top: 8px solid #A545F1;
+           transform: rotate(360deg);
+       }
+    }
+
+

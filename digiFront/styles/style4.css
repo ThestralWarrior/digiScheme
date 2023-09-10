@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+ }
+ .zx{
+    background-image: url(bg\ image.png) ;
+    height: 800px;
+   
+ }
+ .back {
+            height: 40px;
+
+            margin-top: 30px;
+
+        }
+ .nav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            height: 52px;  
+           padding-top: 40px;        
+        }
+        
+        .serch {
+            height: 47px;
+            width: 600px;
+            background-color: rgb(244, 236, 236);
+            border-radius: 10px;
+        }
+
+        input {
+            padding: 15px;
+            width: 537px;
+            border: 0px;
+            outline: 0px;
+            font-size: 15px;
+            background: transparent;
+        }
+
+        .te {
+            display: inline-block;
+            flex-wrap: wrap;
+            margin: 5px;
+        }
+        
+        .Ex {
+            flex-wrap: wrap;
+            padding: 10px;
+            width: 100px;
+            text-decoration: none;
+            color: rgb(252, 252, 252);
+            margin-right: 20px;
+            background-color: #8f51c1;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+        .qw{
+            height: 700px;
+             display: flex;
+            justify-content: center;
+            align-items: center;
+        
+    }
+        .sw{
+            height: 500px;
+             display: flex;
+             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+    }
+        .op{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(67, 77, 218);
+            border-radius: 50%;
+            border: 4px rgb(95, 91, 91);
+            
+             outline: 4px solid rgb(255, 255, 255); 
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             box-shadow: 0px 0px 30px white;
+        }
